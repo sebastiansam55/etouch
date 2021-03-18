@@ -1,0 +1,4 @@
+{
+    ".py":"#!/usr/bin/python3",
+    ".sh":"#!/bin/bash"
+}
