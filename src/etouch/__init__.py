@@ -7,11 +7,15 @@ from pathlib import Path
 
 
 def load_templates():
-    with open(Path('~/.config/etouch.json').expanduser()) as f:
-        data = json.loads(f.read())
+    try:
+        with open(Path('~/.config/etouch.json').expanduser()) as f:
+            data = json.loads(f.read())
 
-        # print(data)
-        return data
+            # print(data)
+            return data
+    except:
+        print("Error reading config file (~/.config/etouch.json), using sensible defaults")
+        return {".py":"#!/usr/bin/python3",".sh":"#!/bin/bash"}
 
 def main():
     parser = argparse.ArgumentParser(description="Enhanched Touch Tool")
