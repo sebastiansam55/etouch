@@ -31,7 +31,7 @@ setup(
     # There are some restrictions on what makes a valid project name
     # specification here:
     # https://packaging.python.org/specifications/core-metadata/#name
-    name='sampleproject',  # Required
+    name='etouch',  # Required
 
     # Versions should comply with PEP 440:
     # https://www.python.org/dev/peps/pep-0440/
@@ -72,7 +72,7 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url='https://github.com/pypa/sampleproject',  # Optional
+    url='https://github.com/sebastiansam55/etouch',  # Optional
 
     # This should be your name or the name of the organization which owns the
     # project.
@@ -116,7 +116,7 @@ setup(
     # Note that this is a list of additional keywords, separated
     # by commas, to be used to assist searching for the distribution in a
     # larger catalog.
-    keywords='sample, setuptools, development',  # Optional
+    keywords='touch, etouch, file, creation, development',  # Optional
 
     # When your source code is in a subdirectory under the project root, e.g.
     # `src/`, it is necessary to specify the `package_dir` argument.
@@ -196,9 +196,9 @@ setup(
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
     project_urls={  # Optional
-        'Bug Reports': 'https://github.com/pypa/sampleproject/issues',
-        'Funding': 'https://donate.pypi.org',
-        'Say Thanks!': 'http://saythanks.io/to/example',
-        'Source': 'https://github.com/pypa/sampleproject/',
+        'Bug Reports': 'https://github.com/sebastiansam55/etouch/issues',
+        # 'Funding': 'https://donate.pypi.org',
+        # 'Say Thanks!': 'http://saythanks.io/to/example',
+        'Source': 'https://github.com/sebastiansam55/etouch',
     },
 )
